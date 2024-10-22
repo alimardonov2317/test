@@ -8,10 +8,14 @@
       {
         "src": "src/index.css",
         "use": "@vercel/static"
+      },
+      {
+        "src": "src/main.css",
+        "use": "@vercel/static"
       }
     ],
     "routes": [
-      { "src": "/(.*)", "dest": "/index.html" }
+      { "src": "/(.*)", "dest": "/src/index.html" }
     ]
   }
   
